@@ -8,7 +8,9 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class TestBase {
-	public static final int SUCCESS_RESPONSE_CODE_201=200;
+	public static final int SUCCESS_RESPONSE_CODE_200=200;
+	public static final int SUCCESS_RESPONSE_CREATED_201=201;
+	public static final int SUCCESS_RESPONSE_NOCONTENT_204=204;
 	
 	public static Properties prop;
 	

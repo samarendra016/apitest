@@ -5,8 +5,8 @@
     <classes>
       <class name="apiTestScript.RestApiClientTest">
         <methods>
+          <include name="registerCountry"/>
           <include name="setUp"/>
-          <include name="getCountries"/>
         </methods>
       </class> <!-- apiTestScript.RestApiClientTest -->
     </classes>

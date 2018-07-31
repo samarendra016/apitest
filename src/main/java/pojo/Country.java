@@ -5,6 +5,9 @@ private int id;
 public int getId() {
 	return id;
 }
+public Country() {
+	// default 
+}
 public Country(int id, String countryName, String population) {
 	super();
 	this.id = id;
